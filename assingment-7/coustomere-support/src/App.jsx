@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Navbar from './component/coustom/navbar'
 import Banner from './component/Banner'
+import Main from './component/Main'
 import './App.css'
 
 
@@ -11,6 +12,7 @@ function App() {
     <>
     <Navbar></Navbar>
     <Banner></Banner>
+    <Main></Main>
     </>
   )
 }
