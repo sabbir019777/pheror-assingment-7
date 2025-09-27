@@ -5,17 +5,16 @@ import Main from './component/Main'
 import Footer from './component/Footer'
 import './App.css'
 
-
 function App() {
-  const [count, setCount] = useState(0)
+  const [inProgress, setInProgress] = useState([])  // Add
+  const [resolved, setResolved] = useState([])      // Add
 
   return (
     <>
-    <Navbar></Navbar>
-    <Banner></Banner>
-    <Main></Main>
-    <Footer></Footer>
-
+      <Navbar />
+      <Banner inProgressCount={inProgress.length} resolvedCount={resolved.length} />
+      <Main inProgress={inProgress} setInProgress={setInProgress} resolved={resolved} setResolved={setResolved} />
+      <Footer />
     </>
   )
 }
