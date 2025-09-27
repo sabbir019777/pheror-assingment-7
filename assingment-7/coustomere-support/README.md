@@ -1,16 +1,13 @@
-# React + Vite
+# React Quick Notes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**1. JSX:** It looks like HTML but inside JS. Used in React to build UI easily.  
 
-Currently, two official plugins are available:
+**2. State vs Props:** State is local data inside a component. Props is how parent passes data to child.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**3. useState hook:** Lets you add state in functional components. Changing state updates the UI.  
 
-## React Compiler
+**4. Sharing state:** Keep state in parent and send it to child via props or use Context API.  
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**5. Event handling:** React uses camelCase events and you give a function to handle them.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  
