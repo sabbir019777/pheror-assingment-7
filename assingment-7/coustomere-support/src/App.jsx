@@ -15,8 +15,9 @@ function App() {
     <Banner></Banner>
     <Main></Main>
     <Footer></Footer>
+
     </>
   )
 }
 
-export default App
+export default App;

@@ -1,9 +1,32 @@
 {
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-toastify": "^11.0.5",
     "tailwindcss": "^4.1.13"
   },
   "devDependencies": {
-    "daisyui": "^5.1.24"
-  }
+    "@vitejs/plugin-react": "^5.0.4",
+    "daisyui": "^5.1.24",
+    "vite": "^7.1.7"
+  },
+  "name": "pheror-assingment-7",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabbir019777/pheror-assingment-7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabbir019777/pheror-assingment-7/issues"
+  },
+  "homepage": "https://github.com/sabbir019777/pheror-assingment-7#readme",
+  "description": ""
 }
