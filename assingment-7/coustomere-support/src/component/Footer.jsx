@@ -65,7 +65,7 @@ const Footer = () => {
  </div>
 
   <div className="mt-8 text-center">
- <p className="text-gray-400 text-sm"> © 2025 CS — Ticket System. All rights reserved.</p>
+ <p className="text-gray-400 text-sm"> © 2025 CS —    Ticket System. All rights reserved.</p>
   </div>
  </div>
   );
